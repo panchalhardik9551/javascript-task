@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: rgb(154, 209, 209);
+}
+.time{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.clock{
+    display: flex;
+    font-size: 25px;
+    padding-left: 300px;
+}
+
+#timer-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.box{
+    width: 500px;
+    background-color: white;
+    padding: 30px 70px;
+    box-shadow: 1px 3px 10px 5px rgba(83, 172, 141, 0.651);
+    border-radius: 8px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+li{
+    font-size: 20px;
+    list-style: none;
+    line-height: 30px;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 8px 30px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: rgb(13, 196, 62);
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#submit:hover{
+    background-color: rgb(15, 173, 141)
+}
+
+#showscore{
+    margin-top: 25px;
+    padding: 20px 10px;
+    background-color: rgb(61, 114, 160);
+    box-shadow: 0px 0px 20px 2px rgba(83, 172, 141, 0.651);
+}
+
+#showscore h3{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#showscore .btn:hover{
+    margin-top: 20px;
+    background-color: cyan;
+    color: gray;
+}
+
+.scorearea{
+    display: none;
+}
